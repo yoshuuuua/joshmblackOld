@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<title>Josh Black</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="variables.js"></script>
+<script type="text/javascript" src="rogue1.js"></script>
+
+
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="rogue.css">
+
+
+
+<body>
+<div class="w3-row">
+
+<div class="" id="sizzleReelContainer">
+<p id="sizzleReel">
+ </p>
+ </div>
+<div class="w3-half" style="opacity: 0">p</div>
+<div class="w3-half" id="hidden" class="hide">
+<!-- !PAGE CONTENT! -->
+<div class="content" >
+
+<!-- Header -->
+<header>
+  <h1 class="w3-xlarge">Big Kahuna</h1>
+  <h1>Josh Black</h1>
+  <img onclick="shoot(this)" class="logo" id="gun1" alt="ray" src="gun-blaster.png">
+
+  <div class="w3-padding-32">
+    <div class="w3-btn-bar w3-border w3-show-inline-block">
+      <a target="_blank"  href="Joshua_M_Black.pdf" class="w3-btn">Resume</a>
+      <a onclick="$('#projects').goTo();" id="classified" target="_self"  href="#" class="w3-btn ">Projects</a>
+      <a onclick="window.open('mailto:josh.m.black.work@gmail.com');" id="top_secret"  href="#" class="w3-btn">Contact</a>
+    </div>
+  </div>
+</header>
+
+<!-- Main INfo -->
+<div id="main" class="main-info">
+<h1>About</h1>
+  <p>To be honest, I get a little nervous every time I have to spell beleive...</p>
+  <h1 id="projects">Projects</h1>
+  <p>I am working on a <a target="_blank"  href="Josh_ORCA.pdf">species discernment software</a> that will lead to cheaper species identification.</p>
+
+  <p>I was the lead developer for the BYU McKay School of Education Systematic and Engaging Early Literary <a target="_blank"  href="https://www.education.byu.edu/seel">Lesson Library</a>.</p>
+  
+  <textarea onblur="complement(this)" id="complement" >I once made a DNA complement generator. Try it out for yourself.
+  NOTE: 'A', 'T', 'C' and, 'G' are the codons for DNA. Deselect the box to start the conversion.</textarea>
+
+  <h1>Work Experience</h1>
+  <p>Research Assistant</p>
+  <ul>
+    <li>Designing new organism identification software to reduce $2000 for each identification</li>
+    <li>Operating college supercomputer through Unix interface</li>
+  </ul>
+  <p>Lead Systematic and Engaging Early Literacy (SEEL) Developer</p>
+  <ul>
+    <li>Headed SEEL Lesson Library Page design and creation using the Drupal framework with PHP</li>
+    <li>Enhanced SQL Database modeling and administration</li>
+  </ul>
+  <p>Analyst (Internship)</p>
+  <ul>
+    <li>Forensically traced sales invoices to create raw sales summaries</li>
+    <li>Mapped database information for use in information system consultations</li>
+  </ul>
+
+</div>
+
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer > 
+<p>Copyright Josh Black Estate: 31337</p>
+<p>Icon made by Freepik from
+www.flaticon.com</p>
+  <a target="_blank"  href="https://www.facebook.com/" class="w3-hover-text-indigo"><i class="fa fa-facebook-official"></i></a>
+  <a target="_blank"  href="https://www.pinterest.com/" class="w3-hover-text-red"><i class="fa fa-pinterest-p"></i></a>
+  <a target="_blank"  href="https://www.linkedin.com/in/joshua-michael-black-3a46b0104
+" class="w3-hover-text-indigo"><i class="fa fa-linkedin"></i></a>
+
+</footer>
+<img alt="magicWord" onclick="magicWord()" class="magicWord" src="YouDidn'tSayTheMagicWord.gif">
+
+</div>
+</div>
+</body>
+</html>
