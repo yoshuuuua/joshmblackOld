@@ -150,7 +150,7 @@ $("#sizzleReelContainer").animate({
    {
       clearInterval(interval);
       interval = setInterval(logging,15);
-      $("#sizzleReelContainer").addClass("w3-half");
+      // $("#sizzleReelContainer").addClass("w3-half");
    }
   
    if (action==6)

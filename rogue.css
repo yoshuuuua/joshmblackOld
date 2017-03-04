@@ -25,6 +25,8 @@ header, footer {
     bottom: 2%;
     margin: auto;
     overflow: scroll;
+    max-width: 50%;
+    width: 50%;
 }
 .hide{
 	display: none;
