@@ -34,6 +34,8 @@ header, footer {
 #hidden{
 	padding: 2%;
 	display: none;
+	float: right;
+	max-width: 50%;
 }
 .logo {
 	width: 75px;
